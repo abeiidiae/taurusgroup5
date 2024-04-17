@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Search Results</title>
+</head>
+
+<body>
+   <h1>Search Results</h1>
+
+   <div id="searchResults"></div>
+
+   <script>
+    var keywordToPdf = {
+        "statistics": "stats1.pdf",
+        // Add more mappings as needed
+     };
+
+     // Get search query from URL parameter
+     var queryString = window.location.search;
+     var urlParams = new URLSearchParams(queryString);
+     var searchQuery = urlParams.get('query');
+
+     // Display search query in the page
+     var searchResultsDiv = document.getElementById('searchResults');
+     if (searchQuery) {
+        var matchedPdf = keywordToPdf[searchQuery.toLowerCase()];
+        if (matchedPdf) {
+           // Redirect to the corresponding PDF file
+           window.location.href = matchedPdf;
+        } else {
+           searchResultsDiv.innerHTML = "<p>No PDF found for the search query: <strong>" + searchQuery + "</strong></p>";
+        }
+     } else {
+        searchResultsDiv.innerHTML = "<p>No search query provided.</p>";
+     }
+   </script>
+</body>
+
+</html>
