@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>video playlist</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<header class="header">
+   
+   <section class="flex">
+
+      <a href="home.html" class="logo">Taurus</a>
+
+      <form action="search.html" method="post" class="search-form">
+         <input type="text" name="search_box" required placeholder="Search Students, Task, Teachers etc" maxlength="100">
+         <button type="submit" class="fas fa-search"></button>
+      </form>
+
+      <div class="icons">
+         <div id="menu-btn" class="fas fa-bars"></div>
+         <div id="search-btn" class="fas fa-search"></div>
+         <div id="user-btn" class="fas fa-user"></div>
+         <div id="toggle-btn" class="fas fa-sun"></div>
+      </div>
+
+      <div class="profile">
+         <img src="plain.jpg" class="image" alt="">
+         <h3 class="name"></h3>
+         <p class="role">Student</p>
+         <a href="login.html" class="btn">Login</a>
+         <div class="flex-btn">
+            <a href="profile.html" class="option-btn">Profile</a>
+            <a href="register.html" class="option-btn">Register</a>
+         </div>
+      </div>
+
+   </section>
+
+</header>   
+
+<div class="side-bar">
+
+   <div id="close-btn">
+      <i class="fas fa-times"></i>
+   </div>
+
+  
+   <div class="profile">
+      <img src="plain.jpg" class="image" alt="">
+      <h3 class="name"></h3>
+      <p class="role"></p>
+      <a href="login.html" class="btn">Login</a>
+      <a href="register.html" class="option-btn">Register</a>
+   </div>
+
+   <nav class="navbar">
+      <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+      <a href="subjects.html"><i class="fas fa-question"></i><span>Subjects</span></a>
+      <a href="announcements.html"><i class="fas fa-graduation-cap"></i><span>Announcements</span></a>
+      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Students</span></a>
+      <a href="contact.html"><i class="fas fa-headset"></i><span>Contact</span></a>
+   </nav>
+</div>
+<section class="playlist-details">
+
+   <h1 class="heading">Subject Details</h1>
+
+   <div class="row">
+
+      <div class="column">
+         <form action="" method="post" class="save-playlist">
+            <button type="submit"><i class="far fa-bookmark"></i> <span>Save Subject</span></button>
+         </form>
+   
+         <div class="thumb">
+            <img src="komu.png" alt="">
+            <span>5 Weeks</span>
+         </div>
+      </div>
+      <div class="column">
+         <div class="tutor">
+            <img src="girl.jpg" alt="">
+            <div>
+               <h3>Mary Judith Cubio</h3>
+               <span>21-10-2022</span>
+            </div>
+         </div>
+   
+         <div class="details">
+            <h3>Description</h3>
+            <p>The subject of "Komunikasyon" typically focuses on developing students' skills in effective communication in the Filipino language.</p>
+            <a href="teacher_profile.html" class="inline-btn">view profile</a>
+         </div>
+      </div>
+   </div>
+
+</section>
+
+<section class="playlist-videos">
+
+   <h1 class="heading">Subject Lessons</h1>
+
+   <div class="box-container">
+
+      <a class="box" href="komu1.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module 1.png" alt="">
+         <h3>Wika (Kahulugan at Kabuluhan 
+            ng Wika)</h3>
+      </a>
+
+      <a class="box" href="komu2.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module2.png" alt="">
+         <h3>Sitwasyong Pangwika sa Social 
+            Media </h3>
+      </a>
+
+      <a class="box" href="komu3.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module3.png" alt="">
+         <h3>Sitwasyong Pangwika sa Pelikula at Dula</h3>
+      </a>
+
+      <a class="box" href="komu4.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module4.png" alt="">
+         <h3>Konseptong Pangwika 
+            (Rehistro/Barayti ng Wika)</h3>
+      </a>
+
+      <a class="box" href="komu5.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module5.png" alt="">
+         <h3>Sitwasyong Pangwika  
+            sa Panahon ng Modernisasyon</h3>
+      </a>
+
+      <a class="box" href="komu6.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module6.png" alt="">
+         <h3>Rehistro at Barayti ng Wika </h3>
+      </a>
+      <a class="box" href="komu7.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module7.png" alt="">
+         <h3>Pagsusuri ng mga Teksto Gamit  
+            ang Social Media  </h3>
+      </a>
+      <a class="box" href="komu8.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module8.png" alt="">
+         <h3>Wika sa Konteksto ng Radyo  
+            at Telebisyon </h3>
+      </a>
+      <a class="box" href="komu9.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module9.png" alt="">
+         <h3>Kakayahang Lingguwistiko </h3>
+      </a>
+      <a class="box" href="komu10.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module10.png" alt="">
+         <h3>Pagtalakay ng Iba’t ibang Indibidwal Ukol  
+            sa Wikang Pambansa</h3>
+      </a>
+      <a class="box" href="komu11.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module11.png" alt="">
+         <h3>Kakayahang Pragmatiko</h3>
+      </a>
+      <a class="box" href="komu12.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module12.png" alt="">
+         <h3>Pagsulat ng Kritikal na Sanaysay</h3>
+      </a>
+      <a class="box" href="komu13.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module13.png" alt="">
+         <h3>Pagsusuri sa Pananaliksik</h3>
+      </a>
+      <a class="box" href="komu14.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module14.png" alt="">
+         <h3>Hakbang sa Pagsulat ng Pananaliksik </h3>
+      </a>
+      <a class="box" href="komu15.pdf">
+         <i class="fas fa-play"></i>
+         <img src="module15.png" alt="">
+         <h3>Pag-uugnay ng mga Ideya</h3>
+      </a>
+
+
+   </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+
+   &copy; Copyright @ 2024 by <span>Group 5</span> | All Rights Reserved
+
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+   
+</body>
+</html>
