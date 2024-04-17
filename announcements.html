@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Contact Us</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <section class="flex">
+
+         <a href="home.html" class="logo">Taurus</a>
+
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="Search Students, Task, Teachers etc"
+               maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="plain.jpg" class="image" alt="">
+            <h3 class="name"></h3>
+            <p class="role">Student</p>
+            <a href="login.html" class="btn">Login</a>
+            <div class="flex-btn">
+               <a href="profile.html" class="option-btn">Profile</a>
+               <a href="register.html" class="option-btn">Register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+
+
+      <div class="profile">
+         <img src="plain.jpg" class="image" alt="">
+         <h3 class="name"></h3>
+         <p class="role"></p>
+         <a href="login.html" class="btn">Login</a>
+         <a href="register.html" class="option-btn">Register</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="subjects.html"><i class="fas fa-question"></i><span>Subjects</span></a>
+         <a href="announcements.html"><i class="fas fa-graduation-cap"></i><span>Announcements</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Students</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contact</span></a>
+      </nav>
+
+   </div>
+
+<section class="about">
+
+   <div class="row">
+
+      <div class="image">
+         <img src="announcements.png" alt="">
+      </div>
+
+      <div class="content">
+         <h3>Announcements</h3>
+         <p>This page will be dedicated for the reminders and announcements of the students in Taurus.</p>
+         <a href="contact.html" class="inline-btn">Contact Us</a>
+      </div>
+
+   </div>
+
+   <div class="box-container">
+
+      <!-- Example review box with edit button -->
+      <div class="box">
+         <div class="student">
+            <div class="user-info">
+               <img src="plain.jpg" alt="">
+               <h3>Guest 1</h3>
+            </div>
+         </div>
+         <p>Accomplish tasks in Java Programming</p>
+         <!-- Edit button -->
+         <button class="edit-btn" onclick="editReview(this)">Edit</button>
+      </div>
+      
+      
+      
+      
+
+   </div>
+
+</section> 
+
+<footer class="footer">
+
+   &copy; Copyright @ 2024 by <span>Group 5</span> | All Rights Reserved
+
+</footer>
+
+<!-- custom js file link  -->
+<script src="review.js"></script>
+<script src="script.js"></script>
+
+
+
+</body>
+</html>

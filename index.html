@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+   <header class="header">
+
+      <section class="flex">
+
+         <a href="index.html" class="logo">Taurus</a>
+         <form id="searchForm" class="search-form">
+            <input id="searchInput" type="text" name="search_box" required placeholder="Search Students, Task, Teachers etc" maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="plain.jpg" class="image" alt="">
+            <h3 class="name"></h3>
+            <p class="role">Student</p>
+            <a href="login.html" class="btn">Login</a>
+            <div class="flex-btn">
+               <a href="profile.html" class="option-btn">Profile</a>
+               <a href="register.html" class="option-btn">Register</a>
+            </div>
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
+      </div>
+
+
+      <div class="profile">
+         <img src="plain.jpg" class="image" alt="">
+         <h3 class="name"></h3>
+         <p class="role"></p>
+         <a href="login.html" class="btn">Login</a>
+         <a href="register.html" class="option-btn">Register</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>Home</span></a>
+         <a href="subjects.html"><i class="fas fa-question"></i><span>Subjects</span></a>
+         <a href="announcements.html"><i class="fas fa-graduation-cap"></i><span>Announcements</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>Students</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>Contact</span></a>
+      </nav>
+      
+   </div>
+
+   <section class="home-grid">
+      <h1 class="heading">quick options</h1>
+
+      <div class="box-container">
+
+         <div class="box">
+            <h3 class="title">Subjects and Teachers</h3>
+            <p class="likes">Total Subjects : <span>15</span></p>
+            <a href="#" class="inline-btn">View Subjects</a>
+            <p class="likes">Total Teachers : <span>13</span></p>
+            <a href="#" class="inline-btn">View Teachers</a>
+            <p class="likes">Saved Lessons : <span>4</span></p>
+            <a href="#" class="inline-btn">View Lessons</a>
+         </div>
+
+         <div class="box">
+            <h3 class="title">Top Topics</h3>
+            <div class="flex">
+               <a href="#"><i class="fas fa-code"></i><span>development</span></a>
+               <a href="#"><i class="fas fa-chart-simple"></i><span>business</span></a>
+               <a href="#"><i class="fas fa-pen"></i><span>design</span></a>
+               <a href="#"><i class="fas fa-chart-line"></i><span>marketing</span></a>
+               <a href="#"><i class="fas fa-music"></i><span>music</span></a>
+               <a href="#"><i class="fas fa-camera"></i><span>photography</span></a>
+               <a href="#"><i class="fas fa-cog"></i><span>software</span></a>
+               <a href="#"><i class="fas fa-vial"></i><span>science</span></a>
+            </div>
+         </div>
+
+         <div class="box">
+            <h3 class="title">Popular Subjects</h3>
+            <div class="flex">
+               <a href="#"><i class="fab fa-html5"></i><span>Programming</span></a>
+               <a href="#"><i class="fab fa-css3"></i><span>EAPP</span></a>
+               <a href="#"><i class="fab fa-js"></i><span>Research</span></a>
+               <a href="#"><i class="fab fa-react"></i><span>Statistics and Probability</span></a>
+               <a href="#"><i class="fab fa-php"></i><span>General Math</span></a>
+               <a href="#"><i class="fab fa-bootstrap"></i><span>HOPE</span></a>
+            </div>
+         </div>
+
+         <div class="box">
+            <h3 class="title">Contact the Teachers</h3>
+            <p class="tutor">Do you have any questions regarding the subjects?</p>
+            <a href="contact.html" class="inline-btn">Ask now</a>
+         </div>
+
+      </div>
+   </section>
+
+   
+      <section class="courses">
+
+         <h1 class="heading">Applied Subjects</h1>
+   
+         <div class="box-container">
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Ellen Buison</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="eap.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">English for Academic and Professional Purposes</h3>
+               <a href="subjecteap.html" class="inline-btn">View Subject</a>
+            </div>
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Ronel Pauig</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="genmath.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">General Mathematics</h3>
+               <a href="subjectgen.html" class="inline-btn">View Subject</a>
+            </div>
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Lairriza S. Cantor</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="oral.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Oral Communication</h3>
+               <a href="subjectoral.html" class="inline-btn">View Subject</a>
+            </div>
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Paul Dizon</h3>
+                     <span>2023 - 2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="HOPE.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Health Optimizing Physical Education</h3>
+               <a href="subjecthope.html" class="inline-btn">View Subject</a>
+            </div>
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Ella Bacaricas De Villa</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="eals.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Earth and Life Science</h3>
+               <a href="subjecteals.html" class="inline-btn">View Subject</a>
+            </div>
+   
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Heartlyn Escubillo Valdez</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="pilin.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Piling Larangan</h3>
+               <a href="subjectpiling.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Del Aunaie Cayley Deseo</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="ict.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">ICT</h3>
+               <a href="subjectict.html" class="inline-btn">View Subjects</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Mary Judith Cubio</h3>
+                     <span>2023</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="komu.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Komunikasyon</h3>
+               <a href="subjectkomu.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Demetrio Cangas III</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="emp.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Empowerment Technology</h3>
+               <a href="subjectemptek.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Ellen Buison</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="resirts.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Practical Research 1</h3>
+               <a href="subjectresirts.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Ronel Pauig</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="stats.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Statistics and Probability</h3>
+               <a href="subjectstats.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Rogel Raji</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="perdev.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Personal Development</h3>
+               <a href="subjectperdev.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Sheryll Tahup</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="rws.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Reading and Writing Skills</h3>
+               <a href="subjectrws.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="girl.jpg" alt="">
+                  <div class="info">
+                     <h3>Manilyn Dulin</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="PAP.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Pagbasa at Pagsusuri sa Ibat Ibang Teksto Tungo sa Pananaliksik</h3>
+               <a href="subjectpap.html" class="inline-btn">View Subject</a>
+            </div>
+            <div class="box">
+               <div class="tutor">
+                  <img src="boy.jpg" alt="">
+                  <div class="info">
+                     <h3>Junjun Gael Sacay</h3>
+                     <span>2024</span>
+                  </div>
+               </div>
+               <div class="thumb">
+                  <img src="prog.png" alt="">
+                  <span>5 Weeks</span>
+               </div>
+               <h3 class="title">Programming</h3>
+               <a href="subjectprog.html" class="inline-btn">View Subject</a>
+            </div>
+   
+         </div>
+   
+         <div class="more-btn">
+            <a href="courses.html" class="inline-option-btn">View All Subjects</a>
+         </div>
+   
+    
+   
+   </section>
+
+   <script>
+      document.getElementById('searchForm').addEventListener('submit', function(event) {
+         event.preventDefault(); // Prevent default form submission
+         var searchInput = document.getElementById('searchInput').value.trim();
+         if (searchInput !== "") {
+            // Redirect to search.html with search query
+            window.location.href = "search.html?query=" + encodeURIComponent(searchInput);
+         }
+      });
+   </script>
+   <script src="script.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
